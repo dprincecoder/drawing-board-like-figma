@@ -10,7 +10,8 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #4a98f7;
+  background: #310e05;
+  position: relative;
 }
 
 .container {
@@ -101,20 +102,20 @@ section {
 }
 
 .colors .option:nth-child(1) {
-  background: white;
+  background-color: white;
   border: 1px solid #bfbfbfbf;
 }
 .colors .option:nth-child(2) {
-  background: black;
+  background-color: black;
 }
 .colors .option:nth-child(3) {
-  background: #e02020;
+  background-color: #e02020;
 }
 .colors .option:nth-child(4) {
-  background: #6dd400;
+  background-color: #6dd400;
 }
 .colors .option:nth-child(5) {
-  background: #4a98f7;
+  background-color: #4a98f7;
 }
 
 .colors .option.selected::before {
@@ -138,7 +139,7 @@ section {
   -o-transform: translate(-50%, -50%);
 }
 
-.option #color-picker{
+.option #color-picker {
   opacity: 0;
   cursor: pointer;
 }
@@ -146,8 +147,6 @@ section {
 .colors .option:first-child.selected::before {
   border-color: #ccc;
 }
-
-
 
 .buttons button {
   width: 100%;
@@ -164,7 +163,6 @@ section {
   -o-border-radius: 5px;
   cursor: pointer;
 }
-
 
 .buttons .clear-canvas {
   transition: all 0.3s ease;
@@ -190,7 +188,26 @@ section {
   flex: 1;
 }
 
-.drawing-board canvas{
+.drawing-board canvas {
   width: 100%;
   height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 1rem;
+}
+
+footer p {
+  color: white;
+}
+
+p span {
+  color: red;
+  font-size: 1.5rem;
+}
+
+p span i {
+  color: #4a98f7;
+  font-size: initial;
 }
