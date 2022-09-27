@@ -1,4 +1,4 @@
-#SketchIt
+# SketchIt
 
 ## A mini figma webapp
 
