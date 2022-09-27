@@ -196,6 +196,7 @@ section {
 footer {
   position: absolute;
   bottom: 1rem;
+  margin: 2rem 0;
 }
 
 footer p {
@@ -210,4 +211,31 @@ p span {
 p span i {
   color: #4a98f7;
   font-size: initial;
+}
+
+.mobile {
+  display: none;
+  color: white;
+  margin-left: 1rem;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    flex-direction: column;
+  }
+  .tools-board {
+    width: 100%;
+  }
+  .desktop {
+    /* display: none; */
+  }
+
+  .mobile {
+    /* display: block; */
+  }
+
+  footer {
+    display: none;
+  }
 }
