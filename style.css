@@ -221,21 +221,11 @@ p span i {
 }
 
 @media screen and (max-width: 960px) {
-  .container {
-    flex-direction: column;
-  }
-  .tools-board {
-    width: 100%;
-  }
   .desktop {
-    /* display: none; */
+    display: none;
   }
 
   .mobile {
-    /* display: block; */
-  }
-
-  footer {
-    display: none;
+    display: block;
   }
 }
