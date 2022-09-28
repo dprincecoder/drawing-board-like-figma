@@ -2,4 +2,4 @@
 
 ## A mini figma webapp
 
-## if you can imagine then you can sketchIt
+## if you can imagine it then you can sketchIt
